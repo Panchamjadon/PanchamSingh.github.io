@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pancham Singh | DevOps Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span>&lt;</span>Pancham<span>/&gt;</span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+        <!-- Animated Background -->
+        <div class="gradient-orb orb-one"></div>
+        <div class="gradient-orb orb-two"></div>
+        <div class="gradient-orb orb-three"></div>
+
+        <div class="particles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <div class="hero-container">
+
+            <div class="hero-content">
+
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    Available for Opportunities
+                </div>
+
+                <p class="hero-small-text">
+                    Hello, I'm
+                </p>
+
+                <h1>
+                    Pancham
+                    <span>Singh</span>
+                </h1>
+
+                <div class="typing-container">
+                    <span>I'm a </span>
+                    <span id="typingText"></span>
+                    <span class="cursor">|</span>
+                </div>
+
+                <p class="hero-description">
+                    DevOps Engineer passionate about cloud infrastructure,
+                    automation, containerization and building reliable,
+                    scalable systems.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn primary-btn">
+                        <i class="fas fa-rocket"></i>
+                        Explore My Work
+                    </a>
+
+                    <a href="#contact" class="btn secondary-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="mailto:panchamjadon2@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Terminal -->
+
+            <div class="hero-terminal">
+
+                <div class="terminal-window">
+
+                    <div class="terminal-header">
+
+                        <div class="terminal-buttons">
+                            <span class="red"></span>
+                            <span class="yellow"></span>
+                            <span class="green"></span>
+                        </div>
+
+                        <span class="terminal-title">
+                            pancham@devops: ~
+                        </span>
+
+                    </div>
+
+                    <div class="terminal-body">
+
+                        <p>
+                            <span class="terminal-green">pancham@devops</span>:
+                            <span class="terminal-blue">~</span>$
+                            whoami
+                        </p>
+
+                        <p class="terminal-output">
+                            Pancham Singh
+                        </p>
+
+                        <p>
+                            <span class="terminal-green">pancham@devops</span>:
+                            <span class="terminal-blue">~</span>$
+                            role
+                        </p>
+
+                        <p class="terminal-output">
+                            DevOps Engineer
+                        </p>
+
+                        <p>
+                            <span class="terminal-green">pancham@devops</span>:
+                            <span class="terminal-blue">~</span>$
+                            skills
+                        </p>
+
+                        <p class="terminal-output">
+                            AWS | Docker | Kubernetes | Jenkins
+                        </p>
+
+                        <p>
+                            <span class="terminal-green">pancham@devops</span>:
+                            <span class="terminal-blue">~</span>$
+                            status
+                        </p>
+
+                        <p class="terminal-success">
+                            ✓ Continuously Learning & Improving
+                        </p>
+
+                        <p class="terminal-cursor">
+                            _
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <a href="#about" class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section about-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+                <p class="section-label">01 — ABOUT ME</p>
+                <h2>Building the Future with <span>Technology</span></h2>
+                <p>
+                    A passionate engineer focused on cloud, automation and DevOps.
+                </p>
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-card about-main-card">
+
+                    <div class="about-icon">
+                        <i class="fas fa-user-gear"></i>
+                    </div>
+
+                    <h3>Who Am I?</h3>
+
+                    <p>
+                        My name is <strong>Pancham Singh</strong>.
+                        I completed my B.Tech in Computer Science and Engineering
+                        from <strong>Lovely Professional University (LPU)</strong>
+                        in 2026.
+                    </p>
+
+                    <p>
+                        I am a DevOps Engineer who enjoys working with cloud
+                        technologies, Linux systems, automation, containers and
+                        modern infrastructure.
+                    </p>
+
+                    <p>
+                        I continuously work on improving my technical skills and
+                        learning new technologies to become a better DevOps
+                        professional every day.
+                    </p>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="about-icon purple">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <h3>Education</h3>
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-dot"></div>
+
+                        <div>
+                            <h4>B.Tech — Computer Science & Engineering</h4>
+                            <p>Lovely Professional University</p>
+                            <span>Completed • 2026</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-card">
+
+                    <div class="about-icon blue">
+                        <i class="fas fa-code"></i>
+                    </div>
+
+                    <h3>My Approach</h3>
+
+                    <p>
+                        Learn → Build → Automate → Deploy → Monitor → Improve
+                    </p>
+
+                    <div class="approach-flow">
+
+                        <span>Learn</span>
+                        <i class="fas fa-arrow-right"></i>
+
+                        <span>Build</span>
+                        <i class="fas fa-arrow-right"></i>
+
+                        <span>Deploy</span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+                <p class="section-label">02 — MY SKILLS</p>
+                <h2>Technologies I <span>Work With</span></h2>
+                <p>
+                    Tools and technologies I use while learning and building
+                    DevOps solutions.
+                </p>
+            </div>
+
+
+            <div class="skills-grid">
+
+                <!-- AWS -->
+
+                <div class="skill-card">
+                    <div class="skill-icon aws">
+                        <i class="fab fa-aws"></i>
+                    </div>
+
+                    <h3>AWS Cloud</h3>
+
+                    <p>
+                        EC2, S3, VPC, RDS, DynamoDB and more
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>EC2</span>
+                        <span>S3</span>
+                        <span>VPC</span>
+                        <span>RDS</span>
+                        <span>DynamoDB</span>
+                    </div>
+                </div>
+
+
+                <!-- Docker -->
+
+                <div class="skill-card">
+
+                    <div class="skill-icon docker">
+                        <i class="fab fa-docker"></i>
+                    </div>
+
+                    <h3>Docker</h3>
+
+                    <p>
+                        Containerization and application deployment
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Images</span>
+                        <span>Containers</span>
+                        <span>Dockerfile</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Kubernetes -->
+
+                <div class="skill-card">
+
+                    <div class="skill-icon kubernetes">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+
+                    <h3>Kubernetes</h3>
+
+                    <p>
+                        Container orchestration and scalable applications
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Pods</span>
+                        <span>Services</span>
+                        <span>Deployments</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Jenkins -->
+
+                <div class="skill-card">
+
+                    <div class="skill-icon jenkins">
+                        <i class="fas fa-gears"></i>
+                    </div>
+
+                    <h3>Jenkins</h3>
+
+                    <p>
+                        CI/CD pipelines and build automation
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>CI/CD</span>
+                        <span>Pipelines</span>
+                        <span>Automation</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Linux -->
+
+                <div class="skill-card">
+
+                    <div class="skill-icon linux">
+                        <i class="fab fa-linux"></i>
+                    </div>
+
+                    <h3>Linux</h3>
+
+                    <p>
+                        Linux administration, commands and server management
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Ubuntu</span>
+                        <span>Shell</span>
+                        <span>CLI</span>
+                    </div>
+
+                </div>
+
+
+                <!-- Web Servers -->
+
+                <div class="skill-card">
+
+                    <div class="skill-icon server">
+                        <i class="fas fa-server"></i>
+                    </div>
+
+                    <h3>Web Servers</h3>
+
+                    <p>
+                        Configuration and management of Apache and Nginx
+                    </p>
+
+                    <div class="skill-tags">
+                        <span>Apache</span>
+                        <span>Nginx</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Technology Cloud -->
+
+            <div class="technology-cloud">
+
+                <span><i class="fab fa-aws"></i> AWS</span>
+                <span><i class="fab fa-docker"></i> Docker</span>
+                <span><i class="fas fa-dharmachakra"></i> Kubernetes</span>
+                <span><i class="fas fa-gears"></i> Jenkins</span>
+                <span><i class="fab fa-linux"></i> Linux</span>
+                <span><i class="fas fa-server"></i> Nginx</span>
+                <span><i class="fas fa-server"></i> Apache</span>
+                <span><i class="fas fa-network-wired"></i> Networking</span>
+                <span><i class="fas fa-code-branch"></i> Git</span>
+                <span><i class="fas fa-terminal"></i> Shell</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <p class="section-label">03 — PROJECTS</p>
+
+                <h2>Things I've Been <span>Building</span></h2>
+
+                <p>
+                    Practical projects focused on cloud, automation and
+                    infrastructure.
+                </p>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div class="project-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+
+                    <h3>AWS Cloud Infrastructure</h3>
+
+                    <p>
+                        Designed and practiced cloud infrastructure using
+                        AWS services such as EC2, S3, VPC, RDS and DynamoDB.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>AWS</span>
+                        <span>EC2</span>
+                        <span>S3</span>
+                        <span>VPC</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div class="project-icon docker-project">
+                        <i class="fab fa-docker"></i>
+                    </div>
+
+                    <h3>Dockerized Application</h3>
+
+                    <p>
+                        Containerized applications using Docker and worked
+                        with images, containers, Dockerfiles and deployment.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Docker</span>
+                        <span>Linux</span>
+                        <span>Containers</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div class="project-icon jenkins-project">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+
+                    <h3>CI/CD Pipeline</h3>
+
+                    <p>
+                        Practiced CI/CD automation using Jenkins with
+                        build, test and deployment workflows.
+                    </p>
+
+                    <div class="project-tech">
+                        <span>Jenkins</span>
+                        <span>Git</span>
+                        <span>CI/CD</span>
+                    </div>
+
+                    <a href="#" class="project-link">
+                        View Project
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+
+                </article>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= DEVOPS JOURNEY ================= -->
+
+    <section class="journey-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <p class="section-label">04 — MY JOURNEY</p>
+
+                <h2>Learning. Building. <span>Improving.</span></h2>
+
+            </div>
+
+
+            <div class="journey">
+
+                <div class="journey-line"></div>
+
+
+                <div class="journey-item">
+
+                    <div class="journey-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="journey-content">
+
+                        <span>2026</span>
+
+                        <h3>B.Tech CSE Completed</h3>
+
+                        <p>
+                            Completed Bachelor of Technology in Computer
+                            Science and Engineering from LPU.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-item">
+
+                    <div class="journey-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+
+                    <div class="journey-content">
+
+                        <span>Cloud</span>
+
+                        <h3>AWS & Cloud Computing</h3>
+
+                        <p>
+                            Learning and practicing AWS cloud services,
+                            infrastructure and networking.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-item">
+
+                    <div class="journey-icon">
+                        <i class="fas fa-infinity"></i>
+                    </div>
+
+                    <div class="journey-content">
+
+                        <span>DevOps</span>
+
+                        <h3>Automation & CI/CD</h3>
+
+                        <p>
+                            Building knowledge in Docker, Kubernetes,
+                            Jenkins, Linux and automation.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="journey-item">
+
+                    <div class="journey-icon">
+                        <i class="fas fa-arrow-trend-up"></i>
+                    </div>
+
+                    <div class="journey-content">
+
+                        <span>Today & Beyond</span>
+
+                        <h3>Continuous Improvement</h3>
+
+                        <p>
+                            Continuously learning new technologies and
+                            improving my DevOps engineering skills.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="section contact-section">
+
+        <div class="section-container">
+
+            <div class="section-heading">
+
+                <p class="section-label">05 — CONTACT</p>
+
+                <h2>Let's Build Something <span>Great</span></h2>
+
+                <p>
+                    Have a project, opportunity or just want to connect?
+                    Feel free to reach out.
+                </p>
+
+            </div>
+
+
+            <div class="contact-grid">
+
+
+                <div class="contact-info">
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <span>Email</span>
+
+                            <a href="mailto:panchamjadon2@gmail.com">
+                                panchamjadon2@gmail.com
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <span>Phone</span>
+
+                            <a href="tel:+917505668700">
+                                +91 7505668700
+                            </a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-card">
+
+                        <div class="contact-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <span>Location</span>
+                            <p>India</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contact-socials">
+
+                        <a href="#">
+                            <i class="fab fa-github"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="mailto:panchamjadon2@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Contact Form -->
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+
+                            <label for="name">Your Name</label>
+
+                            <input
+                                type="text"
+                                id="name"
+                                placeholder="Enter your name"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">Your Email</label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required
+                            >
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="subject">Subject</label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            placeholder="What would you like to discuss?"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            rows="6"
+                            placeholder="Write your message..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="btn primary-btn send-btn">
+
+                        <span>Send Message</span>
+
+                        <i class="fas fa-paper-plane"></i>
+
+                    </button>
+
+                    <p id="formMessage" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div class="footer-logo">
+                &lt;<span>Pancham</span>/&gt;
+            </div>
+
+            <p>
+                Designed & Built by Pancham Singh
+            </p>
+
+            <p class="copyright">
+                © <span id="year"></span> Pancham Singh. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Scroll To Top -->
+
+    <button id="scrollTop" class="scroll-top">
+
+        <i class="fas fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- JavaScript -->
+
+    <script src="javascript.js"></script>
+
+</body>
+</html>
